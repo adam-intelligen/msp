@@ -21,4 +21,4 @@ data = load_data()
 data_load_state.text("Done! (using st.cache_data)")
 
 
-st.map(data)
+st.map(data, size='percentage')
